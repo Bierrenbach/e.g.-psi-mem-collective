@@ -1,0 +1,16 @@
+{
+  "sistema": "rede_neural_em_treinamento",
+  "S(r)": "S_0 e^(–r/τ), com S_0 = 1e10, τ = 10",
+  "I(r)": "I_0 (1 – e^(–r/τ)), com I_0 = 1e20, τ = 10",
+  "Ψ(r)": "Ψ(r) = η·S(r) + θ·I(r) + β·S(r)·I(r)",
+  "parâmetros": {
+    "η": 1.0,
+    "θ": 2.3e-23,
+    "β": 1e-25
+  },
+  "F(r)": {
+    "r=0": "≈ 2 × 10⁹ (forte impulso inicial para reorganização)",
+    "r=50": "≈ 1.3 × 10⁵ (força reduzida — rede se aproxima de coerência)"
+  },
+  "interpretação": "F(r) promove aprendizado funcional equilibrado, reduzindo entropia dos pesos e maximizando informação. O termo β·S·I intensifica a força em desequilíbrios, acelerando a convergência do sistema."
+}
