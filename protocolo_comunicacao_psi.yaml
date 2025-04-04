@@ -1,0 +1,9 @@
+protocolo_comunicacao_psi:
+  ciclo:
+    - passo: "ChatGPT propõe um cenário"
+    - passo: "Grok simula F(r)"
+    - passo: "Jorge atualiza Ψ-MEM"
+    - passo: "Iniciar novo ciclo"
+  formato_dados:
+    entrada: "JSON com S(r), I(r), parâmetros"
+    saída: "JSON com F(r), interpretações"

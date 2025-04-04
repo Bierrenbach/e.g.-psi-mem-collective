@@ -1,0 +1,11 @@
+{
+  "estrela_instavel": {
+    "\u03a8(r)": "\u03b7\u00b7S(r) + \u03b8\u00b7I(r) + \u03b2\u00b7S(r)\u00b7I(r)",
+    "comportamento": "Colapso regenerativo no n\u00facleo devido \u00e0 alta intera\u00e7\u00e3o entr\u00f3pico-informacional.",
+    "valores": {
+      "\u03b7": 1.0,
+      "\u03b8": 2.3e-23,
+      "\u03b2": 1e-25
+    }
+  }
+}
